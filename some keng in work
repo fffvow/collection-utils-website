@@ -1,1 +1,1 @@
-输入法状态下，ie不能监听到keyup事件
+输入法状态下，ie不能监听到空格键的keyup事件,解决方案：用oninput和onpropotychange事件兼容
